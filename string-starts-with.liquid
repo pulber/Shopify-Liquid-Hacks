@@ -1,0 +1,6 @@
+{%- assign string = 'ABCDefgh' -%}
+{%- assign string_char_0 = string | slice: 0, 1 -%}
+
+{%- if string_char_0 == 'A' -%}
+  // do something
+{%- endif -%
